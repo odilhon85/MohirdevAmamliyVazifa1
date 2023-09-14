@@ -29,4 +29,8 @@ public class Person {
                 ", address='" + address + '\'' +
                 '}';
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
